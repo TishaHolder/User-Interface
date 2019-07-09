@@ -72,36 +72,42 @@ h1, h2, h3, h4, h5 {
 }
 
 header {
-	background-color: blue;
-	margin-top: 35px;
+	width: 860px;
+	background-color: dodgerblue;
+	margin-top: 0;
+	position: fixed;
+	z-index: 1;
+	
 }
-
 
 header nav {
 	display: inline-block;	
-	padding: 20px 10px;	
+	padding-bottom: 30px;
 	
 }
 
 header nav a {
 	margin:0 20px;
 	text-decoration: none;
-	color: gray;
-	
+	color: black;
+	font-size: 16px;	
+	font-family: 'Bangers', cursive;	
 }
+  
 
 header .logo {
 	display: inline-block;
-	margin-left: 80px;
-		
-	
-		
+	margin-left: 80px;	
+	padding-top: 20px;
+			
 }
 
 .get-started {
 	width: 860px;
 	height: auto;
-	text-align: center;
+	padding-top: 50px;
+	text-align: center;	
+	
 }
 
 .get-started .get-started-details {
@@ -113,17 +119,24 @@ header .logo {
 	/*border: 1px solid black;*/
 }
 
-.get-started .get-started-details h1{
+.get-started .get-started-details h1 {
 	font-size: 60px;
 
 }
+
+.get-started button {
+	background-color: dodgerblue;
+	font-weight: bold;
+	padding: 5px 30px;
+	
+}
+
 
 .get-started .innovation-logo {
 	display: inline-block;
 	width: 400px;
 	height: 300px;
-	padding: 50px 0;
-	/*border: 1px solid black;*/
+	padding: 50px 0;	
 	text-align: center;
 	
 }
@@ -131,7 +144,6 @@ header .logo {
 .get-started .innovation-logo img{
 	width: 280px;
 	height: 280px;	
-	
 }
 
 .main-content {
@@ -169,8 +181,6 @@ header .logo {
 .main-content .services {
 	display: inline-block;
 	width: 275px;
-	
-
 }
 
 .main-content .product {
