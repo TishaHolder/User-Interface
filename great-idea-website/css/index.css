@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 860px;
 	margin: auto;
-	/*border: 1px solid red;*/
 }
 
 header {
@@ -82,8 +81,7 @@ header {
 
 header nav {
 	display: inline-block;	
-	padding-bottom: 30px;
-	
+	padding-bottom: 30px;	
 }
 
 header nav a {
@@ -92,10 +90,9 @@ header nav a {
 	color: black;
 	font-size: 16px;	
 	font-family: 'Bangers', cursive;	
-}
-  
+}  
 
-header .logo {
+header .logo-div {
 	display: inline-block;
 	margin-left: 80px;	
 	padding-top: 20px;
@@ -116,7 +113,8 @@ header .logo {
 	height: 300px;	
 	padding: 30px 0;
 	text-align: center;	
-	/*border: 1px solid black;*/
+	
+	
 }
 
 .get-started .get-started-details h1 {
@@ -138,6 +136,7 @@ header .logo {
 	height: 300px;
 	padding: 50px 0;	
 	text-align: center;
+	
 	
 }
 
